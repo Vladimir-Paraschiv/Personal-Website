@@ -1,6 +1,7 @@
 # Vladimir Paraschiv — Personal Portfolio
 
 A responsive, interactive portfolio built with plain HTML, CSS, and JavaScript. No framework, npm install, backend, or build step is required.
+Served at vladimir-paraschiv.github.io
 
 ## Files
 
