@@ -25,15 +25,6 @@ On systems where Python is named `python3`, use `python3 -m http.server 8000`. T
 
 Alternatively, open the folder in VS Code and serve `index.html` using Live Server.
 
-## Publish on GitHub Pages
-
-1. Create a public repository named `Vladimir-Paraschiv.github.io` for your personal homepage, or use another repository for a project site.
-2. Upload the contents of `vladimir-portfolio` into the repository root. Make sure `index.html` is at the root, not inside an extra ZIP folder.
-3. In repository Settings → Pages, choose Deploy from a branch, then select your branch (usually `main`) and `/ (root)`.
-4. Save and wait for the Pages deployment. Use the address shown by GitHub.
-
-The files use relative asset paths and work at both a domain root and a repository subpath.
-
 ## Edit the site
 
 - Change visible profile text and project-card labels in `index.html`.
@@ -56,10 +47,8 @@ The files use relative asset paths and work at both a domain root and a reposito
 ## Current limitations
 
 - The portrait retains its original background; background removal was not successful.
-- E-Commerce has a linked live demo. Medicine Management requires its separate Express backend; see its repository instructions. The voting capstone has no linked public repository or demo yet.
+- E-Commerce has a linked live demo. Medicine Management requires its separate Express backend; see its repository instructions. The voting capstone has no linked public repository or demo yet. The repository is managed by a separate group member.
 - This portfolio does not host the project backends or send email itself. Gmail and Outlook links open webmail and may require sign-in.
 - Google Fonts needs an internet connection; the CSS includes fallback fonts.
 - Automatic clipboard access depends on browser permissions and a secure context (HTTPS or localhost). Manual copying remains available.
 - `resume.pdf` is included as provided; its GitHub text may still show the previous username.
-
-Exported from the published website on September 26, 2026. These are the editable source files, not a compiled bundle. The archive intentionally excludes deployment credentials and provider-specific project identity.
